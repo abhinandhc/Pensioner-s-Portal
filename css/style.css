@@ -1,0 +1,74 @@
+/* first navbar styling */
+
+.firstNavbar {
+    top: 0%;
+    background-color: #205375;
+    color: white;
+    font-size: 0.75rem;
+    height: 10%;
+    padding: 0.5rem 2rem 0.5rem 2rem;
+}
+
+.nav-link {
+    color: white;
+}
+
+.fnavbar-img {
+    width: 1.5rem;
+    height: 1.5rem;
+    margin: 0.5rem;
+}
+
+select {
+    background: none;
+    border: none;
+    color: white;
+}
+
+option {
+    color: #205375;
+}
+
+/* second navbar styling */
+.secondNavbar {
+    margin: 1rem 4rem 1rem 4rem;
+    padding: 1rem;
+}
+
+.row {
+    text-align: center;
+}
+
+#snvheading {
+    padding: 2.5rem;
+}
+
+
+#symbol {
+    width: 75px;
+    height: 150px;
+}
+
+#dilogo {
+    width: 175px;
+    height: 100px;
+}
+
+/* third navbar styling */
+#thrdnav {
+    margin: auto;
+}
+
+/* floatingDiv styling */
+marquee {
+    padding: 0.75rem;
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: unset;
+}
+
+/* footer section styling */
+footer {
+    background-color: #06113C;
+    color: lightgray;
+}
