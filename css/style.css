@@ -67,6 +67,88 @@ marquee {
     font-style: unset;
 }
 
+/* main div styling */
+#maindiv {
+    margin: 2rem;
+    background-color: #FF1700;
+    color: white;
+    padding: 1.2rem;
+}
+
+#mainhead {
+    padding: 1.5rem;
+}
+
+.maindivContents {
+    background-color: white;
+    color: #06113C;
+    padding: 2rem;
+    border-radius: 10px;
+}
+
+.mainimg {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    height: 40%;
+}
+
+/* about us styling */
+.aboutus {
+    background-color: #006E7F;
+    color: white;
+    padding: 1.5rem;
+}
+
+#about {
+    background-color: white;
+    color: #205375;
+    padding: 1rem;
+}
+
+/* milestone div styling */
+#banner {
+    width: 100%;
+    height: 30%;
+}
+
+#bnrtxt {
+    background-color: #FCFFE7;
+    text-align: center;
+}
+
+.milestonepic {
+    text-align: center;
+}
+
+/* sub divs styling */
+.firstsubdiv,
+.secondsubdiv {
+    text-align: left;
+    background-color: #890F0D;
+    color: white;
+    padding: 1rem;
+}
+
+#firstmaindiv,
+#secondmaindiv {
+    max-width: 45%;
+    margin: 2rem;
+}
+
+.subdivContents {
+    background-color: white;
+    color: #06113C;
+    border-radius: 15px;
+    padding-top: 0.5rem;
+    padding-bottom: 00.5rem;
+}
+
+.calc {
+    padding-left: 1rem;
+    margin-bottom: 1rem;
+}
+
 /* footer section styling */
 footer {
     background-color: #06113C;
