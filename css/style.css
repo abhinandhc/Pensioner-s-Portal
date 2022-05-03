@@ -130,18 +130,25 @@ marquee {
 }
 
 /* sub divs styling */
+
 .firstsubdiv,
 .secondsubdiv {
+    display: none;
     text-align: left;
     background-color: #890F0D;
     color: white;
     padding: 1rem;
 }
 
+.firstsubdiv-active,
+.secondsubdiv-active {
+    display: block;
+}
+
 #firstmaindiv,
 #secondmaindiv {
     max-width: 45%;
-    margin: 2rem;
+    margin: 1rem;
 }
 
 .subdivContents {
