@@ -57,7 +57,9 @@ option {
 /* third navbar styling */
 #thrdnav {
     margin: auto;
+    text-align: center;
 }
+
 
 /* floatingDiv styling */
 marquee {
@@ -135,7 +137,7 @@ marquee {
 .secondsubdiv {
     display: none;
     text-align: left;
-    background-color: #890F0D;
+    background-color: #205375;
     color: white;
     padding: 1rem;
 }
@@ -168,4 +170,68 @@ marquee {
 footer {
     background-color: #06113C;
     color: lightgray;
+}
+
+/* media query section */
+@media screen and (min-width:500px) {
+    #mobilemaindiv {
+        display: none;
+    }
+}
+
+@media screen and (max-width:500px) {
+    a {
+        font-size: 00.5rem;
+    }
+
+    .form-control {
+        max-width: 200px;
+    }
+
+    input {
+        max-width: 150px;
+        max-height: 40px;
+    }
+
+    .searbtn {
+        max-height: 40px;
+        max-width: 50px;
+    }
+
+    #symbol {
+        width: 60px;
+        height: 90px;
+    }
+
+    #snvheading {
+        font-size: small;
+    }
+
+    #dilogo {
+        height: 75px;
+        width: 100px;
+    }
+
+    #mainrow {
+        display: none;
+    }
+
+    #mobilemaindiv {
+        display: block;
+    }
+
+    .mfirstsubdiv,
+    .msecondsubdiv {
+        margin-top: 1rem;
+        display: none;
+        text-align: left;
+        background-color: #205375;
+        color: white;
+        padding: 1rem;
+    }
+
+    .mfirstsubdiv-active,
+    .msecondsubdiv-active {
+        display: block;
+    }
 }
